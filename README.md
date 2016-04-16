@@ -13,8 +13,6 @@ Example
       import conorcode as code
       code.about()
 
-And so on, so forth, you get the point!
-
 #Modding
 There is a file called mods.py, please use this as follows:
 
@@ -29,3 +27,46 @@ In Mods.py, type:
 Then in ConorCode.py, type:
 
       mods.MyFunction()
+
+#Example file
+
+SimpleAddCalculator.py:
+
+      import conorcode as code
+      code.about()
+      code.add()
+      
+Whilst Conorcodes add function does this:
+
+      import mods
+      
+      def add():
+            print("Calculator V1 (Only Adds Numbers)")
+            number1 = input("Enter First Number")
+            number2 = input("Enter Second Number")
+            print(number1+number2)
+            print("Done")
+
+#Modded Example File
+
+Simple2FunctionCalculator.py:
+
+      import conorcode as code
+      code.about()
+      code.mod-calc()
+      
+ConorCode.py:
+
+      import mods
+      
+      def add():
+            print("Calculator V1 (Only Adds Numbers)")
+            number1 = input("Enter First Number")
+            number2 = input("Enter Second Number")
+            print(number1+number2)
+            print("Done")
+            
+      'put mods below this line
+      
+      def mod-calc():
+            func = input("Type - For Subtract and + for addition")
