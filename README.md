@@ -23,9 +23,9 @@ Example:
 
 In Mods.py, type: 
 
-def MyFunction():
+      def MyFunction():
 
-      print("Hello World")
+            print("Hello World")
       
 Then in ConorCode.py, type:
 
