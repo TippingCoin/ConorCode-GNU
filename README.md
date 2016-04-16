@@ -10,9 +10,8 @@ To Use This, you have to use the about() function from conorcode
 
 Example
 
-import conorcode as code
-
-code.about()
+      import conorcode as code
+      code.about()
 
 And so on, so forth, you get the point!
 
@@ -29,4 +28,4 @@ In Mods.py, type:
       
 Then in ConorCode.py, type:
 
-mods.MyFunction()
+      mods.MyFunction()
