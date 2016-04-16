@@ -11,6 +11,7 @@ To Use This, you have to use the about() function from conorcode
 Example
 
 import conorcode as code
+
 code.about()
 
 And so on, so forth, you get the point!
@@ -23,6 +24,7 @@ Example:
 In Mods.py, type: 
 
 def MyFunction():
+
       print("Hello World")
       
 Then in ConorCode.py, type:
